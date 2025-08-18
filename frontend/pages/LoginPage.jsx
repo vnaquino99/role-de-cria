@@ -29,7 +29,7 @@ const LoginPage = ({isAberto}) => {
 
       localStorage.setItem("token", data.token);
       window.alert("Login bem-sucedido!", data);
-      navigate("/home");
+      navigate("/");
     } catch (err) {
       console.error("Erro ao chamar API:", err);
     }
