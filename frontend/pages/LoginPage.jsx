@@ -12,7 +12,7 @@ const LoginPage = ({isAberto}) => {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:3000/api/auth/login", {
+      const res = await fetch("https://role-de-cria.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

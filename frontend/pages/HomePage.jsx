@@ -8,7 +8,7 @@ const HomePage = ({isAberto}) => {
   useEffect(() => {
     const fetchServicos = async () => {
       try {
-        const res = await fetch('http://localhost:3000/api/servicos')
+        const res = await fetch('https://role-de-cria.onrender.com/api/servicos')
         const data = await res.json()
         setServicos(data)
       } catch (error) {
