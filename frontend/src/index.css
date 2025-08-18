@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+@plugin 'tailwind-scrollbar';
+
+.oculto {
+    display: none;
+}
