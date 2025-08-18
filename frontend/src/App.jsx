@@ -11,8 +11,8 @@ function App() {
       <Navbar isAberto={isAberto} setIsAberto={setIsAberto}/>
 
       <Routes>
-        <Route path="/" element={<LoginPage isAberto={isAberto}/>} />
-        <Route path="/home" element={<HomePage isAberto={isAberto} />} />
+        <Route path="/" element={<HomePage isAberto={isAberto}/>} />
+        <Route path="/login" element={<LoginPage isAberto={isAberto} />} />
         
       </Routes>
     </>

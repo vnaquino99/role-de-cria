@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-   base: '/SEU_REPO/',
+   base: '/role-de-cria/',
   plugins: [react(), tailwindcss()],
 })
